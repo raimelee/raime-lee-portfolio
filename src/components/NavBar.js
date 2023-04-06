@@ -20,8 +20,6 @@ const NavBar = () => {
           <div className="nav-line"></div>
           <a href="/graphicdesign">Graphic Design</a>
           <div className="nav-line"></div>
-          <a href="/contact">Contact</a>
-          <div className="nav-line"></div>
           <a href="/fineart">Fine Art</a>
           <div className="nav-line"></div>
           <a href="/contact">Contact</a>
