@@ -1,5 +1,5 @@
 import "./App.css";
-import React from "react";
+import { React } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // import Home from "./pages/Home";
@@ -15,6 +15,7 @@ import RuffLifePet from "./pages/RuffLifePet";
 import TypeASpaces from "./pages/TypeASpaces";
 import UnionAssembly from "./pages/UnionAssembly";
 import Navbar from "./components/NavBar";
+import FooterLinks from "./components/FooterLinks";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <div className="app">
         <Router>
           <Navbar />
+
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
@@ -36,6 +38,7 @@ function App() {
             <Route path="/isallo" element={<Isallo />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <FooterLinks />
         </Router>
       </div>
     </>

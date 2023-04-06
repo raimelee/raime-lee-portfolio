@@ -10,9 +10,8 @@ const NavBar = () => {
     <>
       <div className="Navbar">
         <span alt="r logo" class="r-logo">
-          R
+          <a href="/about">R</a>
         </span>
-
         <div className={`nav-items ${isOpen && "open"}`}>
           <a href="/about">About</a>
           <div className="nav-line"></div>

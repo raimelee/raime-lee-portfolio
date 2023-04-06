@@ -15,6 +15,11 @@
   margin-left: 20px;
 }
 
+.Navbar > .r-logo > a {
+  text-decoration: none;
+  color: rgb(243, 236, 228);
+}
+
 .Navbar > .nav-items {
   display: flex;
   justify-content: space-around;
