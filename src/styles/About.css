@@ -1,0 +1,253 @@
+/* body styles */
+
+body {
+  font-family: mrs-eaves, serif;
+  font-weight: 300;
+  background-color: rgb(0, 42, 78);
+}
+
+div.headline-container {
+  padding: 12.5% 0 25% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+p.headline {
+  padding: 0 20% 0 20%;
+  text-align: center;
+  color: #f3ece4;
+  font-family: mrs-eaves, serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 1.75rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.5rem;
+}
+
+div.line-light {
+  width: 60%;
+  border-top: 1px solid rgb(185, 137, 45);
+  margin-top: 1.85rem;
+}
+
+figure.portrait-container {
+  text-align: center;
+  position: relative;
+  top: -55px;
+  /* margin-bottom: 1.25rem; */
+}
+
+img.site-images {
+  width: 75%;
+  height: auto;
+  box-shadow: 0px 0.5px 10px rgba(0, 0, 0, 0.5);
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin: 1% 12.5% 10% 12.5%;
+  text-align: left;
+}
+
+figcaption > a {
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(185, 137, 45);
+}
+div#projects-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+div.line-dark-center {
+  width: 95%;
+  border-top: 1px solid rgb(185, 137, 45);
+  margin: 0.5rem;
+}
+
+div.line-dark {
+  width: 30%;
+  border-top: 1.5px solid rgb(185, 137, 45);
+  margin: 0.65rem auto 0.65rem 0;
+}
+
+.line {
+  width: 25%;
+  border-top: 1px solid rgb(0, 42, 78);
+}
+
+div.content {
+  background-color: #f3ece4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+section {
+  width: 75%;
+  margin-bottom: 8rem;
+}
+
+section.bio {
+  clear: both;
+  position: relative;
+  top: -3.75rem;
+}
+
+h2 {
+  font-family: mrs-eaves-roman-small-caps, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
+}
+
+h3 {
+  font-family: mrs-eaves, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5rem;
+  letter-spacing: 0.075rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-family: mrs-eaves, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.35rem;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.5rem;
+}
+
+section p {
+  font-size: 1.35rem;
+  line-height: 2.125rem;
+  margin-bottom: 2rem;
+}
+em {
+  letter-spacing: 0.035rem;
+}
+
+button {
+  background-color: rgb(0, 42, 78);
+  border: none;
+  color: #f3ece4;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: mrs-eaves-roman-small-caps, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  letter-spacing: 0.1rem;
+  margin: 3rem auto 4rem auto;
+  cursor: pointer;
+  box-shadow: -0.5px 1px 8px rgba(0, 0, 0, 0.5);
+}
+/* i.fa-circle-up {
+  font-size: 3rem;
+  color: rgb(0, 42, 78);
+  position: fixed;
+  bottom: 0.75rem;
+  right: 0.75rem;
+  z-index: 10;
+} */
+i.fa-caret-up {
+  font-size: 3.5rem;
+  color: rgba(142, 102, 8, 0.9);
+  padding: 01rem;
+  position: fixed;
+  bottom: 0rem;
+  right: 0rem;
+  z-index: 10;
+  /* text-shadow: -2px 3px 7px rgba(0, 0, 0, 0.5); */
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  font-size: 3rem;
+  color: #f3ece4;
+  padding: 01rem;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 500px) {
+  figure.portrait-container {
+    top: -80px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  div.line-light {
+    border-top: 1.5px solid rgb(185, 137, 45);
+  }
+  p.headline {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  figure.portrait-container {
+    top: -100px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+  div.line-light {
+    border-top: 1.5px solid rgb(185, 137, 45);
+  }
+  p.headline {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+  figure.portrait-container {
+    top: -125px;
+  }
+  figcaption {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  div.line-light {
+    border-top: 1.5px solid rgb(185, 137, 45);
+  }
+  p.headline {
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+  }
+  figure.portrait-container {
+    top: -150px;
+  }
+  figcaption {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  div.line-light {
+    border-top: 1.75px solid rgb(185, 137, 45);
+  }
+  p.headline {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  figure.portrait-container {
+    top: -200px;
+  }
+  figcaption {
+    font-size: 1.15rem;
+  }
+}
